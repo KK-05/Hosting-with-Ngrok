@@ -2,12 +2,7 @@ version: "2"
 authtoken: 38sxyo4rD7MSzB80K2eZiRf0zuX_4SE5LfXt4cqZ1nqdG63WL
 
 tunnels:
-  python_server:
-    addr: 6060
+  nginx_server:
+    addr: 8080
     proto: http
-    domain: python-dev.ngrok.app
-
-  flask_api:
-    addr: 8000
-    proto: http
-    domain: api-dev.ngrok.app
+    domain: nonpaternally-osteoid-marilou.ngrok-free.dev
