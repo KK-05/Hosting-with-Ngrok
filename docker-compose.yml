@@ -6,7 +6,7 @@ services:
     env_file:
       - .env
     volumes:
-      - ./ngrok.yml:/etc/ngrok/ngrok.yml:ro
+      - ./ngrok-dev.yml:/etc/ngrok/ngrok.yml:ro
     restart: unless-stopped
     ports:
       - "4040:4040"
